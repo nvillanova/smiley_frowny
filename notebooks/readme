@@ -1,0 +1,5 @@
+Descripition of the files
+
+smiley_frowny.ipynb: notebook to generate the data according to the smiley-frowny model
+CNN1D_SF: notebook to train the CNN1D models in the smiley-frowny data
+CNN2D_SF: notebook to train the CNN2D images model in the smiley-frowny data
