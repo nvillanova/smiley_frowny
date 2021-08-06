@@ -1,4 +1,3 @@
 Descripition of the files
 
-CNN1D_SF.ipynb: notebook to run CNN1D models
-CNN2D_SF.ipynb: notebook to run CNN2D images model
+smiley_frowny.ipynb: notebook to generate the data according to the smiley-frowny model
