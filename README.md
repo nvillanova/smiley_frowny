@@ -1,3 +1,3 @@
 # smiley_frowny
 
-This repository contains the smiley-frowny data sets.
+This repository contains the notebooks to generate and classify the smiley-frowny model data sets.
