@@ -1,3 +1,7 @@
+
+"best_acc.h5" are the models weights.
+So far, there are only the results for the baseline data set: sigma0 = 1.25, Delta g = 0.5.
+
 ### waveform_modified.ipynb: notebook to generate waveform (modified version) data and to run least squares on it.
 
 The waveform (modified version) data sets are saved as .csv files which are named according to the following rule:
