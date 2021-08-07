@@ -1,3 +1,14 @@
+### FOLDERS:
+
+### no_err: contain the results of CNN1D no-sigma model
+### stack_err: contain the results of CNN1D stack-sigma model
+### images: contain the results of CNN2D images model
+"best_acc.h5" are the models weights.
+So far, there are only the results for the baseline data set: m(training set)=200 000, n=20, sigma0 = 0.5, Delta g = 0.5.
+
+
+### NOTEBOOKS:
+
 ### smiley_frowny.ipynb: notebook to generate the data according to the smiley-frowny model (both Gauss and Poisson versions).
 
 The smiley-frowny data sets are saved as .csv files which are named according to the following rule:
