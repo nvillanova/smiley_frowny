@@ -1,0 +1,17 @@
+### waveform_modified.ipynb: notebook to generate waveform (modified version) data and to run least squares on it.
+
+The waveform (modified version) data sets are saved as .csv files which are named according to the following rule:
+
+WF_{data_name: train or test}_m{number of instances / 1000}_sig{sigma_0 * 10}_dg{Delta_g * 10}.csv
+
+Example: baseline test set (m=30 000, sigma0 = 0.5, Delta_g = 0.5)
+WF_test_m100_n20_sig5_dg5.csv
+
+Note: the data set will actually contain 43 columns (21 measurement, 21 uncertainties, 1 label)
+
+
+### CNN1D_WF.ipynb: notebook to run CNN1D models in waveform (modified version) data.
+
+### CNN2D_WF.ipynb: notebook to run CNN2D images model in waveform (modified version) data.
+
+Note: to run CNN1D_WF and (specially) CNN2D_WF, it is highly recommended to connect to a GPU.

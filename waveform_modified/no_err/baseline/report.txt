@@ -1,0 +1,16 @@
+Date: 2021-08-04
+
+Model: CNN1D no_err
+
+Training time elapsed: 620.9274013169997
+
+Comments: ['waveform, sigma0 = 1.25, delta g = 0.5.']
+
+### Model settings
+Compile Parameters: {'loss': 'categorical_crossentropy', 'optimizer': 'Adam', 'metrics': ['accuracy'], 'loss_weights': None, 'sample_weight_mode': None, 'weighted_metrics': None, 'target_tensors': None}
+#Callbacks Parameters
+Early Stopping: {'monitor': 'val_loss', 'patience': 16, 'min_delta': 0.0001, 'verbose': 1, 'mode': 'auto', 'baseline': None, 'restore_best_weights': False}
+Reduce LR on Plateau: {'monitor': 'val_loss', 'factor': 0.1, 'patience': 10, 'verbose': 1, 'mode': 'min', 'min_delta': 0.0001, 'cooldown': 0, 'min_lr': 0}
+
+### Validation settings
+Validation Split Parameters: {'test_size': 0.2, 'random_state': 42, 'shuffle': True}

@@ -1,0 +1,26 @@
+### smiley_frowny.ipynb: notebook to generate the data according to the smiley-frowny model (both Gauss and Poisson versions).
+
+The smiley-frowny data sets are saved as .csv files which are named according to the following rule:
+
+{data_name: train or test}_m{number of instances / 1000}_n{number of features (measurements)}_sig{sigma_0 * 10}_dg{Delta_g * 10}.csv
+
+Example: baseline test set (m=100 000, n=20, sigma0 = 0.5, Delta_g = 0.5)
+test_m100_n20_sig5_dg5.csv
+
+Note: the data set will actually contain 2n + 1 columns (n measurement, n uncertainties, 1 label)
+
+
+### least_squares.ipynb: notebook to run least squares in the smiley-frowny data.
+
+
+### mcmc.ipynb: notebook to run MCMC in the smiley-frowny data.
+
+
+### CNN1D_SF.ipynb: notebook to run CNN1D models in smiley-frowny data.
+
+
+### CNN2D_SF.ipynb: notebook to run CNN2D images model in smiley-frowny data.
+Note: It is not necessary to save the images data. This code uses a data generator to convert the input features (table format) into images "on the fly".
+
+
+Note: to run CNN1D_SF and (specially) CNN2D_SF, it is highly recommended to connect to a GPU.
